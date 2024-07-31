@@ -6,21 +6,25 @@
 .banner{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(toilet.gif);
-    background-size: cover;
-    background-position: center;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(dancingskele.gif);
+}
+#bar {
+    height: 150px;
+    background: rgba(0,0,0,0.50)
 }
 .navbar{
     width: 85%;
     margin: auto;
-    padding: 35px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .logo{
-    width: 120px;
+    width: 250px;
     cursor: pointer;
+}
+.video{
+    width: 50%;
 }
 .navbar ul li{
     list-style: none;

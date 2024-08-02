@@ -24,7 +24,7 @@
     cursor: pointer;
 }
 .video{
-    width: 50%;
+    width: 30%;
 }
 .navbar ul li{
     list-style: none;
@@ -94,4 +94,10 @@ span{
 }
 button:hover span{
     width: 100%;
+}
+.fig{
+    padding-bottom: 30px;
+}
+.fig figcaption{
+    padding-bottom: 10px;
 }
